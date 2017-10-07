@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'nl',
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'nl',
 
     /*
     |--------------------------------------------------------------------------
@@ -167,6 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
+
+        \Barryvdh\TranslationManager\ManagerServiceProvider::class,
 
         /*
          * Application Service Providers...
